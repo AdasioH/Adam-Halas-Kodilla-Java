@@ -22,7 +22,7 @@ public class TestingMain {
         } else {
             System.out.println("Adding error");
         }
-        if (subtrackTwoNo == 2) {
+        if (subtrackTwoNo.equals(2)) {
             System.out.println("subtracking Ok");
         } else {
             System.out.println("subtracking error");
