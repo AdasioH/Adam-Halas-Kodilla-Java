@@ -3,15 +3,17 @@ package com.kodilla.testing.calculator;
 import java.lang.*;
 
 public class Calculator {
-    int a;
-    int b;
-    public Calculator(int a, int b) {
+    Integer a;
+    Integer b;
+    public Calculator(Integer a, Integer b) {
         this.a = a;
         this.b = b;
     }
-    public void add(){
-        System.out.println(a+b);
+    public Integer add(){
+        return a+b;
     }
-    public void subtrack(){System.out.println(a-b);}
+    public Integer subtrack(){
+        return a-b;
+    }
 
 }
