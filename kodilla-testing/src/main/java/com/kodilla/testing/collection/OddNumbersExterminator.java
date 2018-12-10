@@ -8,12 +8,7 @@ public class OddNumbersExterminator {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         Random randomNumbers = new Random();
 
-        /*exterminate(ArrayList < Integer > numbers){
-        for (i = 0; i < number.size(); i++) {
-        if(numbers i%==0){
-        System.out.println(numbers)
 
-        * */
         for (int i = 0; i < 49; i++) {
             Integer randomNumber = randomNumbers.nextInt(99);
             numbers.add(randomNumber);
