@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 public class ForumTestSuite {
     @Test
-    public void testCaseUsername(){
+    public void testCaseUsername() {
 
         SimpleUser simpleUser = new SimpleUser("theForumUser");
 
